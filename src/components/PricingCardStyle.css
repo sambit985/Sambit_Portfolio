@@ -1,0 +1,67 @@
+/* PricingCardStyle.css */
+
+.pricing-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card-header {
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card-header h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .pricing-card-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card-body-item {
+    flex: 1 0 30%;
+    flex: 1 0 calc(33.33% - 20px);
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card-body-item-title {
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card-body-item-title h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .pricing-card-body-item-price h3 {
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
