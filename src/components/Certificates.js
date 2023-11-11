@@ -1,172 +1,116 @@
-/* import React from 'react';
-import './CertificateStyle.css';
 
-const Certificates = () => {
+import React from "react";
+import "./CertificateStyle.css";
+
+import grafana from "../assets/grafana.png";
+import sonarqube from "../assets/sonarqube.png";
+import aws from "../assets/aws.png";
+import jenkins from "../assets/jenkins.png";
+ import react from "../assets/react.png";
+import github from "../assets/github.png";
+import javascript from "../assets/javascript.png";
+import node from "../assets/node.png";
+import express from "../assets/express.png";
+import mongodb from "../assets/mongodb.png";
+import mysql from "../assets/mysql.png";
+import selenium from "../assets/selenium.png";
+
+const Experience = () => {
+  const techs = [
+    {
+      id: 1,
+      src: grafana,
+      title: "Grafana",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: sonarqube,
+      title: "SonarQube",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: aws,
+      title: "AWS",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
+      src: react,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 5,
+      src: node,
+      title: "NodeJs",
+      style: "shadow-green-400",
+    },
+    {
+      id: 6,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-white",
+    },
+    {
+      id: 7,
+      src: express,
+      title: "Express",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 8,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: jenkins,
+      title: "Jenkins",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 10,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-white",
+    },
+    {
+      id: 11,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-500",
+    },
+    {
+      id:12,
+      src: selenium,
+      title: "Selenium"
+    }
+  ];
+
   return (
-    <div>
-      <section className="section category has-bg-image" aria-labelledby="category-label">
-        <div className="container">
-          <p className="title-sm text-center section-subtitle" id="category-label">Course Categories</p>
-          <h2 className="headline-md text-center section-title">FullStack <span className="span has-after">Certifications</span></h2>
-          <ul className="grid-list">
-            <li className="col">
-              <div className="card category-card">
-                <div className="card-icon">
-                  <i className="category-icon">1</i>
-                </div>
-                <div>
-                  <h3 className="title-lg">NodeJs </h3>
-                  <p className="titlesm"><a href='https://certificate.codingninjas.com/verify/c2cad4d232a656d4'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li className="col">
-              <div className="card category-card">
-                <div className="card-icon">
-                  <i className="category-icon">2</i>
-                </div>
-                <div>
-                  <h3 className="title-lg">ReactJs</h3>
-                  <p className="titlesm"><a>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li className="col">
-              <div className="card category-card">
-                <div className="card-icon">
-                  <i className="category-icon">3</i>
-                </div>
-                <div>
-                  <h3 className="title-lg">Java</h3>
-                  <p className="titlesm"><a href='certificate.codingninjas.com/verify/e512808932c7478b'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li className="col">
-              <div className="card category-card">
-                <div className="card-icon">
-                  <i className="category-icon">4</i>
-                </div>
-                <div>
-                  <h3 className="title-lg">JavaScript</h3>
-                  <p className="titlesm"><a href='https://www.hackerrank.com/certificates/d9f4bf59c1e7'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li className="col">
-              <div className="card category-card">
-                <div className="card-icon">
-                  <i className="category-icon">5</i>
-                </div>
-                <div>
-                  <h3 className="title-lg">DataStructure</h3>
-                  <p className="titlesm"><a href='certificate.codingninjas.com/verify/eb65a62166e306cd'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li className="col">
-              <div className="card category-card">
-                <div className="card-icon">
-                  <i className="category-icon">6</i>
-                </div>
-                <div>
-                  <h3 className="title-lg">Git & Github</h3>
-                  <p className="titlesm"><a href='https://dash.unwiredlearning.com/verify-certificate'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience">
+    <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div>
+        <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline" >
+          Certifications
+        </p>
+        <p className="py-6">These are the technologies I've worked with and certified by organizations.</p>
+      </div>
+
+      <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        {techs.map(({ id, src, title, style }) => (
+        <div className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+        <img src={src} alt={title} className="w-20 mx-auto" />
+        <p className="mt-4">{title}</p>
+      </div>
+        ))}
+      </div>
     </div>
+  </div>
   );
-}
+};
 
-export default Certificates;
- */
-
-import React from 'react';
-import './CertificateStyle.css';
-
-const Certificates = () => {
-  return (
-    
-      <section class="section">
-        <div class="container">
-          <p class="section-subtitle">Course Categories</p>
-          <h2 class="section-title">FullStack <span class="has-after">Certifications</span></h2>
-          <ul class="grid-list">
-            <li class="col">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="category-icon">1</i>
-                </div>
-                <div>
-                  <h3 class="title-lg">NodeJs</h3>
-                  <p class="title-sm"><a href='https://certificate.codingninjas.com/verify/c2cad4d232a656d4'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li class="col">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="category-icon">2</i>
-                </div>
-                <div>
-                  <h3 class="title-lg">ReactJs</h3>
-                  <p class="title-sm"><a>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li class="col">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="category-icon">3</i>
-                </div>
-                <div>
-                  <h3 class="title-lg">Java</h3>
-                  <p class="title-sm"><a href='certificate.codingninjas.com/verify/e512808932c7478b'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li class="col">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="category-icon">4</i>
-                </div>
-                <div>
-                  <h3 class="title-lg">JavaScript</h3>
-                  <p class="title-sm"><a href='https://www.hackerrank.com/certificates/d9f4bf59c1e7'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li class="col">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="category-icon">5</i>
-                </div>
-                <div>
-                  <h3 class="title-lg">DataStructure</h3>
-                  <p class="title-sm"><a href='certificate.codingninjas.com/verify/eb65a62166e306cd'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-            <li class="col">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="category-icon">6</i>
-                </div>
-                <div>
-                  <h3 class="title-lg">Git & Github</h3>
-                  <p class="title-sm"><a href='https://dash.unwiredlearning.com/verify-certificate'>View Certificate</a></p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    
-  );
-}
-
-export default Certificates;
+export default Experience;

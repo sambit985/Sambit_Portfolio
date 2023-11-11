@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9be3f2d.css",
-    "main.js": "/static/js/main.9bd8f657.js",
+    "main.css": "/static/css/main.c6e25df2.css",
+    "main.js": "/static/js/main.0d8b259c.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/intro-bg.jpg": "/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/jenkins.png": "/static/media/jenkins.b99382e01661b9044819.png",
     "static/media/react1.jpg": "/static/media/react1.d63ca3791694cd8f6f49.jpg",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/react.png": "/static/media/react.73dbb5bcec516da82694.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/grafana.png": "/static/media/grafana.96431fbf08b74b4429b4.png",
+    "static/media/aws.png": "/static/media/aws.7c6c8d16c6dc3a6e74ac.png",
+    "static/media/selenium.png": "/static/media/selenium.e9bb97c4ded36e6116c2.png",
+    "static/media/mysql.png": "/static/media/mysql.b7a0f2c0963e5864e7c9.png",
+    "static/media/github.png": "/static/media/github.3b5a210b9628af687c4c.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/javascript.png": "/static/media/javascript.ec1c0379d0e87cc38946.png",
+    "static/media/sonarqube.png": "/static/media/sonarqube.12727c77779e6c451e18.png",
+    "static/media/mongodb.png": "/static/media/mongodb.2178943141ba7e7fae4e.png",
     "static/media/react2.jpg": "/static/media/react2.14d79258779dee6bfb79.jpg",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/index.html",
-    "main.f9be3f2d.css.map": "/static/css/main.f9be3f2d.css.map",
-    "main.9bd8f657.js.map": "/static/js/main.9bd8f657.js.map"
+    "main.c6e25df2.css.map": "/static/css/main.c6e25df2.css.map",
+    "main.0d8b259c.js.map": "/static/js/main.0d8b259c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9be3f2d.css",
-    "static/js/main.9bd8f657.js"
+    "static/css/main.c6e25df2.css",
+    "static/js/main.0d8b259c.js"
   ]
 }

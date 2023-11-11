@@ -1,234 +1,115 @@
-/* 
+/* styles.css */
 
-.section {
-    padding: 40px 0;
-    background-color: #f6f6f6;
-    height: auto;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  .titlesm {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 5px;
-  }
-  
-  .section-subtitle {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .headline-md {
-    font-size: 32px;
-    color: #333;
-    margin: 20px 0;
-  }
-  
-  .span {
-    position: relative;
-  }
-  
-  .has-after::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 40px;
-    height: 3px;
-    background-color: #007bff;
-  }
-  
-  .grid-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .col {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 30px;
-  }
-  
-  .card {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .category-card {
-    display: flex;
-    align-items: center;
-  }
-  
-  .card-icon {
-    background-color: #007bff;
-    color: #fff;
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    margin-right: 20px;
-    text-decoration: none !important;
-  }
-  
-  .title-lg {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 5px;
-  }
-  
-  .title-sm {
-    font-size: 16px;
-    color: #666;
-  }
- a{
-    text-decoration: none;
-    color: #666;
-  }
+/* Experience Section */
+.experience {
+  background: linear-gradient(to bottom, #1f2933, #000000);
+}
 
-@media (max-width: 768px) {
-    .col {
-      flex-basis: calc(50% - 20px);
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .col {
-      flex-basis: 100%;
-    }
-  }
-   */
 
-   /* CertificateStyle.css */
+.experience .p-4 {
+  padding: 1rem;
+  text-align: center;
+}
 
-.section {
-    padding: 40px 0;
-    background-color: transparent;
-    height: auto;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  .title-sm {
-    font-size: 18px;
-    color: #cbc9c9;
-    margin-bottom: 5px;
-  }
-  
-  .section-subtitle {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .section-title {
-    font-size: 32px;
-    color: #f9f5f5;
-    margin: 20px 0;
-  }
-  
-  .has-after::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 40px;
-    height: 3px;
-    background-color: #007bff;
-  }
-  
-  .grid-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .col {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 30px;
-  }
-  
-  .card {
-    background: linear-gradient(to right, violet, rgb(77, 234, 248));
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-    text-decoration-line: none;
-  }
-  
-  
-  .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-icon {
-    background-color: #007bff;
-    color: #fff;
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    margin-right: 20px;
-    text-decoration: none !important;
-  }
-  
-  .title-lg {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 5px;
-  }
-  
-  .title-sm {
-    font-size: 16px;
-    color: #666;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #666;
-  }
-  
-  /* Add a media query for screens smaller than 768px */
-  @media (max-width: 768px) {
-    .col {
-      flex-basis: calc(50% - 20px);
-    }
-  }
-  
-  /* Add a media query for screens smaller than 576px */
-  @media (max-width: 576px) {
-    .col {
-      flex-basis: 100%;
-    }
-  }
-  
-  .card .card-icon a{
-    text-decoration: none;
-  }
+.experience .text-white {
+  color: #ffffff;
+}
+
+.experience p {
+  margin: 0;
+  text-align: center;
+}
+
+.experience .text-4xl {
+  font-size: 2.25rem;
+}
+
+.experience .font-bold {
+  font-weight: bold;
+}
+
+.experience .border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.experience .inline {
+  display: inline;
+}
+
+.experience .py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Technologies Grid */
+.experience .grid {
+  display: grid;
+}
+
+.experience .grid-cols-2 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.experience .sm\\:grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.experience .gap-8 {
+  gap: 2rem;
+}
+
+.experience .text-center {
+  text-align: center;
+}
+
+.experience .py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.experience .px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.experience .sm\\:px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Technology Card */
+.experience .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px #ad9;
+}
+
+.experience .hover\\:scale-105:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+.experience .py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.experience .rounded-lg {
+  border-radius: 0.375rem;
+}
+
+.experience .w-20 {
+  width: 5rem;
+}
+
+.experience .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience .mt-4 {
+  margin-top: 1rem;
+}
+.shadow-orange-500 {
+  box-shadow: 0 4px 6px -1px rgba(255, 107, 0, 0.1), 0 2px 4px -1px rgba(255, 107, 0, 0.06);
+}
+
+/* Add similar styles for other shadow classes */
