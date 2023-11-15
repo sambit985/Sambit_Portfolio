@@ -11,13 +11,13 @@ h2 {
   color: aliceblue;
 }
 
-.into-img {
+/* .into-img {
   width: 100%;
   height: 100%;
   background-size: cover;
   object-fit: cover;
   background-position: center;
-}
+} */
 
 .mask::after {
   content: "";
@@ -30,13 +30,7 @@ h2 {
   position: absolute;
 }
 
-.hero {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative; /* Add relative positioning */
-}
+
 
 .hero .content {
   position: absolute;

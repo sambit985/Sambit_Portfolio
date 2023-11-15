@@ -1,7 +1,7 @@
 import './NavbarStyle.css';
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes} from 'react-icons/fa';
 
 
 const Navbar = () => {

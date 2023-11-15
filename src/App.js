@@ -11,13 +11,15 @@ import Skill from './routes/Skill';
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/skill" element={<Skill />} />
-      </Routes>
+     
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/skill" element={<Skill />} />
+        </Routes>
+
     </Router>
   );
 }
