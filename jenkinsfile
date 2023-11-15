@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-       nodejs 'nodejs-20.5.0'
+        node 'nodejs-20.5.0'
       }
     environment {
         PATH = "$PATH:/usr/bin/node"
